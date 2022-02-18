@@ -9,10 +9,6 @@ package dam_ed04_actividad;
 public class Main {
 
     public static void main(String[] args) {
-        CCuenta cuenta1;       
-
-        cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
-        operativa_cuenta(cuenta1, 2300);
     }
 
     private static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
